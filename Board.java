@@ -12,7 +12,6 @@ public class Board {
     public static void populate() {
         Random rand = new Random(); 
         numCards = rand.nextInt(41)+10; 
-        System.out.println(numCards);
     }
 
     public static void addPlayers(int numPlayers) {
